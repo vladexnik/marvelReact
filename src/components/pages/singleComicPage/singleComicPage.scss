@@ -1,0 +1,61 @@
+@import '../../../style/variables.scss';
+
+.back{
+    text-align: center;
+    cursor: pointer;
+    margin: 10px auto;
+    max-width: 200px;
+    background-color: rgb(176, 176, 176);
+    padding: 10px 15px;
+    color: black;
+    border: 2px solid rgb(176, 176, 176); 
+}
+
+.back:hover{
+    transform: scale(1.1); 
+}
+
+.comic{
+    display: inline;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.single-comic {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 293px 550px auto;
+    column-gap: 50px;
+    align-items: start;
+    &__img {
+        width: 293px;
+        height: 450px;
+    }
+    &__name {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 29px;
+    }
+    &__descr {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 25px;
+    }
+    &__price {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        color: $main-color;
+        margin-top: 25px;
+    }
+    &__back {
+        justify-self: end;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        &:hover {
+            color: $main-color;
+        }
+    }
+}
