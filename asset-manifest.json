@@ -3,8 +3,8 @@
     "static/js/0.3e1f441c.chunk.js": "/marvelReact/static/js/0.3e1f441c.chunk.js",
     "static/js/0.3e1f441c.chunk.js.map": "/marvelReact/static/js/0.3e1f441c.chunk.js.map",
     "main.css": "/marvelReact/static/css/main.25fc24b2.chunk.css",
-    "main.js": "/marvelReact/static/js/main.d2b5f5a3.chunk.js",
-    "main.js.map": "/marvelReact/static/js/main.d2b5f5a3.chunk.js.map",
+    "main.js": "/marvelReact/static/js/main.bb5db408.chunk.js",
+    "main.js.map": "/marvelReact/static/js/main.bb5db408.chunk.js.map",
     "runtime-main.js": "/marvelReact/static/js/runtime-main.e9da1e95.js",
     "runtime-main.js.map": "/marvelReact/static/js/runtime-main.e9da1e95.js.map",
     "static/js/3.4ef3261c.chunk.js": "/marvelReact/static/js/3.4ef3261c.chunk.js",
@@ -44,6 +44,6 @@
     "static/js/runtime-main.e9da1e95.js",
     "static/js/3.4ef3261c.chunk.js",
     "static/css/main.25fc24b2.chunk.css",
-    "static/js/main.d2b5f5a3.chunk.js"
+    "static/js/main.bb5db408.chunk.js"
   ]
 }
