@@ -19,8 +19,8 @@ const App=()=> {
                 <main>
                     <Suspense fallback={<span style={{'textAlign': 'center'}}>Loading...</span>}>
                         <Routes> 
-                            <Route path="/" element={<MainPage/>}/>                           
-                            <Route path="/comics" element={<ComicsPage/>}/>
+                            <Route path="/marvelReact" element={<MainPage/>}/>                           
+                            <Route path="/marvelReact/comics" element={<ComicsPage/>}/>
                             <Route path="/comics/:comicId" element={<SingleComicPage/>} />
                             <Route path="/characters/:charId" element={<SingleCharPage/>} />
                             <Route path="*" element={<Page404/>} />
